@@ -1,0 +1,120 @@
+<grossesquiz>
+    <configuration>
+        <displayserverhost>10.0.1.106</displayserverhost>
+        <displayserverport>4321</displayserverport>
+    </configuration>
+
+    <teams>
+        <team>A</team>            
+        <team>B</team>            
+        <team>C</team>            
+    </teams>
+
+    <categories>
+        <category>Eins</category>            
+        <category>Zwei</category>            
+        <category>Drei</category>            
+        <category>Vier</category>        
+        <category>Fünf</category>                
+    </categories>
+    
+    <questions>
+
+    
+        <qcategory name="Eins">
+            <question hastime="True" timeallowance="60" value="20">
+                <text>Frage#20</text>
+            </question>
+            <question hastime="True" timeallowance="60" value="40">
+                <text>Frage#40</text>
+            </question>
+            <question hastime="True" timeallowance="60" value="60">
+                <text>Frage#60</text>
+            </question>
+            <question hastime="True" timeallowance="60" value="80">
+                <text>Frage#80</text>
+            </question>            
+            <question hastime="True" timeallowance="60" value="100">
+                <text>Frage#100</text>
+            </question>            
+        </qcategory>
+        
+        
+        <qcategory name="Zwei">
+            <question hastime="True" timeallowance="60" value="20">
+                <text>Frage#20</text>
+            </question>
+            <question hastime="False" timeallowance="60" value="40">
+                <text>Frage ohne Zeit#40</text>
+            </question>
+            <question hastime="True" timeallowance="60" value="60">
+                <text>Frage#60</text>
+            </question>
+            <question hastime="True" timeallowance="60" value="80">
+                <text>Frage#80</text>
+            </question>            
+            <question hastime="False" timeallowance="0" value="100">
+                <text>Frage ohne Zeit#100</text>
+            </question>            
+        </qcategory>
+        
+        
+        <qcategory name="Drei">
+            <question hastime="True" timeallowance="60" value="20">
+                <text>Frage#20</text>
+            </question>
+            <question hastime="True" timeallowance="60" value="40">
+                <text>Frage#40</text>
+            </question>
+            <question hastime="True" timeallowance="60" value="60">
+                <text>Frage#60</text>
+            </question>
+            <question hastime="True" timeallowance="60" value="80">
+                <text>Frage#80</text>
+            </question>            
+            <question hastime="True" timeallowance="60" value="100">
+                <text>Frage#100</text>
+            </question>            
+        </qcategory>   
+        
+             
+        <qcategory name="Vier">
+            <question hastime="True" timeallowance="60" value="20">
+                <text>Frage#20</text>
+            </question>
+            <question hastime="True" timeallowance="60" value="40">
+                <text>Frage#40</text>
+            </question>
+            <question hastime="True" timeallowance="60" value="60">
+                <text>Frage#60</text>
+            </question>
+            <question hastime="True" timeallowance="60" value="80">
+                <text>Frage#80</text>
+            </question>            
+            <question hastime="True" timeallowance="60" value="100">
+                <text>Frage#100</text>
+            </question>            
+        </qcategory>
+        
+        
+        <qcategory name="Fünf">
+            <question hastime="True" timeallowance="60" value="20">
+                <text>Frage#20</text>
+            </question>
+            <question hastime="True" timeallowance="60" value="40">
+                <text>Frage#40</text>
+            </question>
+            <question hastime="True" timeallowance="60" value="60">
+                <text>Frage#60</text>
+            </question>
+            <question hastime="True" timeallowance="60" value="80">
+                <text>Frage#80</text>
+            </question>            
+            <question hastime="True" timeallowance="60" value="100">
+                <text>Frage#100</text>
+            </question>            
+        </qcategory>
+        
+                
+    </questions>
+</grossesquiz>
