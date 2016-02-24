@@ -8,7 +8,7 @@ Das Große Quiz wurde in Python3 für Linux entwickelt. Einsgesetzt wurde es bis
 
 # Abhängigkeiten
 
-Die Clientsoftware verwendet die Library [xmltodict](https://github.com/martinblech/xmltodict) für das Parsen der XML-Datei, welche die Quizfragen enthält. Die Datei xmltodict.py muß daher in den Client-Ordner kopiert werden, damit der Client lauffähig ist. Wenn der Client auf Ubuntu 14.04 LTS eingesetzt wird, dann sollten alle benötigten Pakete bereits standardmäßig vorinstalliert sein. Bei Einsatz des Clients auf Raspbian Wheezy werden die Pakete libgtk-3-dev und python3-gi benötigt, welche mit den Kommandos
+Die Clientsoftware verwendet die Library [xmltodict](https://github.com/martinblech/xmltodict) für das Parsen der XML-Datei, welche die Quizfragen enthält. Die Datei xmltodict.py muß daher in den Client-Ordner kopiert oder global installiert werden, damit der Client lauffähig ist. Wenn der Client auf Ubuntu 14.04 LTS eingesetzt wird, dann sollten bis auf xmltodict alle benötigten Pakete bereits standardmäßig vorinstalliert sein. Bei Einsatz des Clients auf Raspbian Wheezy werden die Pakete libgtk-3-dev und python3-gi benötigt, welche mit den Kommandos
 
     apt-get install libgtk-3-dev
     apt-get install python3-gi
