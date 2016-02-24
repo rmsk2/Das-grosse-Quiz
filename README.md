@@ -17,7 +17,7 @@ installiert werden könnnen.
 
 Der Server ist auf Raspbian Wheezy "Out of the box" ohne die Installation weiterer Pakete lauffähig. Er basiert für die Grafikausgabe auf der Python3-Version von [pygame](http://pygame.org/news.html).
 
-# Installation
+# Installation und Konfiguration
 
 ToDo.
 
