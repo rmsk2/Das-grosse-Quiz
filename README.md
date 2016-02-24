@@ -19,8 +19,7 @@ Der Server ist auf Raspbian Wheezy "Out of the box" ohne die Installation weiter
 
 # Installation und Konfiguration
 
-Die Installation des Servers ist simpel: einfach das "server" Verzeichnis auf die Zielmaschine kopieren. Die Installation des
-Clients ist nicht wesentlich schwieriger. Dort muß nach Kopieren des "client" Verzeichnisses zusätzlich der Hostname/die IP-Adresse sowie der Port, auf dem der Serverprozess hört, in die Datei questions.xml eingetragen werden. Dafür ist der Tag configuration vorgesehen:
+Die Installation des Servers ist simpel: Es muß einfach das "server" Verzeichnis auf die Zielmaschine kopiert werden. Die Installation des Clients ist nicht wesentlich schwieriger. Dort muß nach Kopieren des "client" Verzeichnisses zusätzlich der Hostname/die IP-Adresse sowie der Port, auf dem der Serverprozess hört, in die Datei questions.xml eingetragen werden. Dafür ist der Tag configuration vorgesehen:
 
     <configuration>
         <displayserverhost>10.0.1.106</displayserverhost>
