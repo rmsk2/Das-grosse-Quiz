@@ -89,6 +89,14 @@ class QuestionRepository:
             # Check for information about teams. There have to be exactly three.
             if len(self.teams) != 3:
                 raise ParseException('There have to be exactly three teams')
+
+            # Verify that categories have been loaded successfully
+            if self.categories == None:
+                raise ParseException('Error determining categories')
+
+            # There have to be exactly five categories
+            if len(self.categories) != 5:
+                raise ParseException('There have to be exactly five categories')
             
             # Check whether host name and port can be read from the XML file
             if self.config == None:
@@ -143,7 +151,17 @@ class QuestionRepository:
     #            
     @property    
     def categories(self):
-        return self._xml['grossesquiz']['categories']['category'][:]
+        result = None
+        
+        try:
+            result = []
+            
+            for i in self._xml['grossesquiz']['questions']['qcategory']:
+                result.append(i['@name'])
+        except:
+            result = None
+        
+        return result
 
     ## \brief Returns the network configuration data defined in the XML file.
     #

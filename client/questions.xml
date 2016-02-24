@@ -9,17 +9,8 @@
         <team>B</team>            
         <team>C</team>            
     </teams>
-
-    <categories>
-        <category>Eins</category>            
-        <category>Zwei</category>            
-        <category>Drei</category>            
-        <category>Vier</category>        
-        <category>Fünf</category>                
-    </categories>
     
     <questions>
-
     
         <qcategory name="Eins">
             <question hastime="True" timeallowance="60" value="20">
