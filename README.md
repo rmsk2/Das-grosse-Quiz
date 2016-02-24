@@ -62,7 +62,7 @@ Im "client" Verzeichnis muß sich die Datei questions.xml befinden, welche zusä
 
 und können dort auch verändert werden. Die Anzahl der Teams muss derzeit exakt drei betragen. 
 
-Zu jedem Quiz gehören natürlich auch Quizfragen. Diese sind in questions.xml unter dem Tag questions gespeichert und werden dort nach Kategorien gruppiert:
+Zu jedem Quiz gehören natürlich auch Quizfragen. Diese sind in questions.xml unter dem Tag "questions" gespeichert und werden dort nach Kategorien gruppiert:
 
     <questions>
     
