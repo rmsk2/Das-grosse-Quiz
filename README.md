@@ -8,7 +8,7 @@ Das Große Quiz wurde in Python3 für Linux entwickelt. Einsgesetzt wurde es bis
 
 # Abhängigkeiten
 
-ToDo.
+Die Clientsoftware verwendet [xmltodict](https://github.com/martinblech/xmltodict). Die Datei xmltodict.py muß in den Client-Ordner kopiert werden, damit die Clientsoftware lauffähig ist.
 
 # Installation
 
