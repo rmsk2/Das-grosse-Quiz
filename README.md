@@ -93,4 +93,10 @@ Es müssen genau fünf Kategorien mit jeweils fünf Fragen (mit den Wertigkeiten
         <text>Frage#40</text>
     </question>
     
-Wenn das Attribut "hastime" den Wert "True" aufweist, wird bei der Anzeige der Frage ein Zähler eingeblendet, welcher vom unter dem Attribut "timeallowance" angegebenen Wert auf 0 heruntergezählt wird. Wenn "hastime" nicht "True" ist, dann wird die Frage ohne Zähler dargestellt. Das Attribut "value" determiniert die Wertigkeit der Frage. Der Text der Frage wird durch den Tag "text" festegelegt. Eine besondere Bedeutung kommt dabei dem Zeichen "#" zu: Es steht für einen Zeilenumbruch. Alle Zeilen der Frage werden durch den Server zentriert auf dem Bildschirm ausgegeben.  
+Wenn das Attribut "hastime" den Wert "True" aufweist, wird bei der Anzeige der Frage ein Zähler eingeblendet, welcher vom unter dem Attribut "timeallowance" angegebenen Wert auf 0 heruntergezählt wird. Wenn "hastime" nicht "True" ist, dann wird die Frage ohne Zähler dargestellt. Das Attribut "value" determiniert die Wertigkeit der Frage. Der Text der Frage wird durch den Tag "text" festegelegt. Eine besondere Bedeutung kommt dabei dem Zeichen "#" zu: Es steht für einen Zeilenumbruch. Alle Zeilen der Frage werden durch den Server zentriert auf dem Bildschirm ausgegeben.
+
+# Quizregeln
+
+Weder Client noch Server setzen einen bestimmten Spielablauf bzw. Regelsatz durch. Über den Client läßt sich die Darstellung eines Introtextes, die Anzeige einer Frage, die Anzeige des Spielfeldes und die Anzeige des Endergebnisses auslösen. Weiterhin ermöglicht es der Client die korrekte (oder auch die falsche) Beantwortung einer Frage durch ein Team aufzuzeichnen. Dabei wird dem Team bei korrekter Beantwortung der Frage der Punktwert der Frage gutgeschrieben. Eine falsche Antwort führt spiegelbildlich dazu, dass dem betreffenden Team der Punktwert der falsch beantworteten Frage abgezogen wird. 
+
+Mit diesen Bausteinen lassen sich diverse Spielabläufe und Regelsätze realisieren, welche sich mehr oder weniger genau an den Ablauf der ZDF-Quizsendung ["Der Grosse Preis"](https://de.wikipedia.org/wiki/Der_Gro%C3%9Fe_Preis) anlehnen. Eine identische Umsetzung ist aber nicht möglich, da Risiko-Fragen nicht vorgesehen sind.
