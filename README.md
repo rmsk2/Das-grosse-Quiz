@@ -43,7 +43,7 @@ aber einfach geändert werden. Die verwendete Schriftgröße bei der Ausgabe von
 
 # Über den Client
 
-Die Clientsoftware kann nur dann erfolgreich ausgeführt werden, wenn der Server bereits läuft. Der Client wird dann durch den Befehl
+Die Clientsoftware kann nur dann erfolgreich ausgeführt werden, wenn der Server bereits läuft. Der Client wird durch den Befehl
 
     python3 dgqcontrol.py
     
