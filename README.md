@@ -26,7 +26,7 @@ Die Installation des Servers ist simpel: Es muß einfach das "server" Verzeichni
         <displayserverport>4321</displayserverport>
     </configuration>
 
-Schöner wäre es natürlich wenn diese Konfigurationsarbeiten direkt über die Clientsoftware durchgeführt werden könnten. Dieses Feature ist bis jetzt allerdings noch nicht implementiert.
+Schöner wäre es natürlich wenn diese Konfigurationseinstellungen direkt über die Clientsoftware vorgenommen werden könnten. Dieses Feature ist bis jetzt allerdings noch nicht implementiert.
 
 # Über den Server
 
